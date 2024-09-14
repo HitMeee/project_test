@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "module": "NodeNext",          // Use modern module system for Node.js
+      "target": "ES6",               // Ensure modern JS syntax
+      "baseUrl": "./src",            // Relative path for src
+      "outDir": "./dist",            // Relative path for output
+      "sourceMap": true,             // Enable source maps for debugging
+      "esModuleInterop": true,       // For CommonJS/ES module compatibility
+      "forceConsistentCasingInFileNames": true, // Enforce file casing
+      "strict": true,                // Optional strict type checking
+      "noImplicitAny": true          // You already had this enabled
+    },
+    "include": ["src/**/*"]
+  }
+  
