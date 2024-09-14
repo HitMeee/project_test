@@ -1,14 +1,14 @@
 {
     "compilerOptions": {
-      "module": "NodeNext",          // Use modern module system for Node.js
-      "target": "ES6",               // Ensure modern JS syntax
-      "baseUrl": "./src",            // Relative path for src
-      "outDir": "./dist",            // Relative path for output
-      "sourceMap": true,             // Enable source maps for debugging
-      "esModuleInterop": true,       // For CommonJS/ES module compatibility
-      "forceConsistentCasingInFileNames": true, // Enforce file casing
-      "strict": true,                // Optional strict type checking
-      "noImplicitAny": true          // You already had this enabled
+      "module": "NodeNext",          // Node.js ES modules
+      "target": "ES6",               // Modern JavaScript
+      "baseUrl": "./src",
+      "outDir": "./dist",
+      "sourceMap": true,
+      "esModuleInterop": true,       // Cho phép tương thích giữa CommonJS và ES6
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "noImplicitAny": true
     },
     "include": ["src/**/*"]
   }
